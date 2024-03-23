@@ -1,0 +1,31 @@
+#godot generated files
+.godot/
+
+# visual studio files and folders
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+# gmake files
+Makefile
+**/Makefile
+
+# xcode files
+**.xcworkspace/
+**.xcodeproj/
+
+# codelite files
+**.workspace
+**.project
+
+# common build folders
+build/
+out/
+
+# cmake intermediates
+CmakeCache.txt
+CMakeFiles/
+*.cmake
+

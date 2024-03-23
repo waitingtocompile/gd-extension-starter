@@ -1,0 +1,15 @@
+[configuration]
+entry_symbol = "${EXTENSION_ENTRY_SYMBOL}"
+compatability_minimum = ${EXTENSION_COMPATABILITY_MINIMUM}
+reloadable = ${HOT_RELOAD}
+
+[icons]
+
+[libraries]
+linux.debug.x86_64 = "res://${GODOT_PROJECT_BIN}/lib${EXTENSION_NAME}-d.so"
+linux.release.x86_64 = "res://${GODOT_PROJECT_BIN}/lib${EXTENSION_NAME}.so"
+macos.debug = "res://${GODOT_PROJECT_BIN}/lib${EXTENSION_NAME}-d.dylib"
+macos.release = "res://${GODOT_PROJECT_BIN}/lib${EXTENSION_NAME}.dylib"
+windows.debug.x86_64 = "res://${GODOT_PROJECT_BIN}/${EXTENSION_NAME}-d.dll"
+windows.release.x86_64 = "res://${GODOT_PROJECT_BIN}/${EXTENSION_NAME}.dll"
+
