@@ -1,6 +1,6 @@
 [configuration]
 entry_symbol = "${EXTENSION_ENTRY_SYMBOL}"
-compatability_minimum = ${EXTENSION_COMPATABILITY_MINIMUM}
+compatibility_minimum = ${EXTENSION_COMPATABILITY_MINIMUM}
 reloadable = ${HOT_RELOAD}
 
 [icons]
