@@ -36,6 +36,10 @@ set(OUTPUT_DIR ${GODOT_PROJECT_DIR}/${GODOT_PROJECT_BIN})
 
 option(EXTENSION_HOT_RELOADABLE "Build the gdextension libraries and extension manifest file to enable hot reloading" OFF)
 
+if(extension_hot_reloadable)
+    add_compile_definitions(hot_reload_enabled)
+endif()
+
 add_subdirectory(dependencies/godot-cpp)
 
 add_subdirectory(extension)
